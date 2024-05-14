@@ -1,0 +1,159 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.3,
+      "y": 5.54
+    },
+    "rotation": 0.0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "PivotAndShootBack"
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "sequential",
+                "data": {
+                  "commands": [
+                    {
+                      "type": "path",
+                      "data": {
+                        "pathName": "Copy of 1. Mid subwoofer to Mid note"
+                      }
+                    },
+                    {
+                      "type": "path",
+                      "data": {
+                        "pathName": "Copy of 2. Continue Forward To Pickup Mid Note"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "IntakeIndefinitely"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "sequential",
+                "data": {
+                  "commands": [
+                    {
+                      "type": "path",
+                      "data": {
+                        "pathName": "Copy of 3. Return Centre Note to Mid Subwoofer"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "PivotAndRevForShotBack"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "PivotAndShootBack"
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "sequential",
+                "data": {
+                  "commands": [
+                    {
+                      "type": "path",
+                      "data": {
+                        "pathName": "Copy of 4. Mid subwoofer to Amp Note"
+                      }
+                    },
+                    {
+                      "type": "path",
+                      "data": {
+                        "pathName": "Copy of 5. Continue Forward To Pickup Amp Note"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "IntakeIndefinitely"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Copy of 6. Return Amp Note To Mid Subwoofer"
+                }
+              },
+              {
+                "type": "sequential",
+                "data": {
+                  "commands": [
+                    {
+                      "type": "named",
+                      "data": {
+                        "name": "SetArmUp"
+                      }
+                    },
+                    {
+                      "type": "named",
+                      "data": {
+                        "name": "PivotAndRevForShotBack"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "PivotAndShootBack"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "Shoot from Different Intake Auto ",
+  "choreoAuto": false
+}

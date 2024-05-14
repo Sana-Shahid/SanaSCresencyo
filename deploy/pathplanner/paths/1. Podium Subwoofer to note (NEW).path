@@ -1,0 +1,52 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 0.6647280672971791,
+        "y": 4.440615856320681
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.2100668566650252,
+        "y": 4.362710314986592
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.589856370692452,
+        "y": 4.1
+      },
+      "prevControl": {
+        "x": 0.9666120399759084,
+        "y": 4.04157084400065
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 1.23,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 180.0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "2 note podium subwoofer paths (NEW)",
+  "previewStartingState": {
+    "rotation": -59.8586144479247,
+    "velocity": 0
+  },
+  "useDefaultConstraints": false
+}

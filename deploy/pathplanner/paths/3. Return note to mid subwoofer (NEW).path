@@ -1,0 +1,52 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 2.4,
+        "y": 5.51
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.391006242747955,
+        "y": 5.502078857064002
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.41,
+        "y": 5.51
+      },
+      "prevControl": {
+        "x": 1.3418084382446014,
+        "y": 5.51
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 1.0,
+    "maxAcceleration": 1.52,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -1.6753407153007513,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "2 note mid subwoofer (NEW)",
+  "previewStartingState": {
+    "rotation": -178.42123108667002,
+    "velocity": 0
+  },
+  "useDefaultConstraints": false
+}

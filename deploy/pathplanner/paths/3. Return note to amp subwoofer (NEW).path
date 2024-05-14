@@ -1,0 +1,52 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 2.48,
+        "y": 7.02
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.9140452880242798,
+        "y": 7.080189683839653
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 0.713419030638906,
+        "y": 6.680400169812226
+      },
+      "prevControl": {
+        "x": 1.2392814346768815,
+        "y": 7.021236913170173
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 1.53,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 63.82471001824013,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "2 note amp subwoofer paths (NEW)",
+  "previewStartingState": {
+    "rotation": 0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": false
+}

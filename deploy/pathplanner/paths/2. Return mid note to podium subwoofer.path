@@ -1,0 +1,58 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 7.76,
+        "y": 0.76
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.303141621704358,
+        "y": 1.4899434781075978
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 0.7134190306291597,
+        "y": 4.430877663658181
+      },
+      "prevControl": {
+        "x": 1.4924744440187527,
+        "y": 2.853290451544255
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.5,
+      "rotationDegrees": 137.8542290572965,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.6,
+    "maxAcceleration": 4.5,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 122.81634341394546,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "3 note podium subwoofer mid paths",
+  "previewStartingState": {
+    "rotation": -179.95545461786884,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}
